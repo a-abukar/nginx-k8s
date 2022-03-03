@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  creationTimestamp: "2022-03-03T23:10:43Z"
+  name: api-key
+  namespace: k8s-project
+  resourceVersion: "132543"
+  uid: 50737810-de06-48ac-b290-4755ac94abcc
+type: Opaque
