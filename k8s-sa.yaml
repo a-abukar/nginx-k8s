@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  creationTimestamp: "2022-03-03T23:18:13Z"
+  name: k8s-sa
+  namespace: k8s-project
+  resourceVersion: "132673"
+  uid: f22f6b56-d66c-4205-a3aa-50faf08b2bbb
+secrets:
+- name: api-key

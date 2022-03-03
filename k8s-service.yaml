@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: k8s-deploy
+  name: k8s-service
+  namespace: k8s-project
+spec:
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 80
+    nodePort: 30080
+  selector:
+    app: k8s-deploy
+  type: NodePort
+status:
+  loadBalancer: {}
